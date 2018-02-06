@@ -13085,7 +13085,7 @@ gmVmZmZmZlYlTrDMzMzMzMyqxAmWmZmZmZlZlfx/pGA9CSVGpHIAAAAASUVORK5CYII=
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><strong>Answer:</strong> The driving agent is constantly making bad decisions because the actions are chosen randomly by the agent.
 The no of relative frequency is very high (ranging from .4698 to 0.4167). These bad actions are violating many laws, minor-major voilations are between range 0.1559 - 0.2079 and minor-major accidents are between range 0.03220-0.8039</p>
-<p>2.Yes the rate of reliabilty is poor as the agent never really learns the optimal policy, so training doesn't matter as agent is going to take random action always.As we can see garde of reliabilty is F and constant at 20%.</p>
+<p>2.Yes the rate of reliabilty is poor as the agent never really learns the optimal policy as we have not started the learning yet, so training doesn't matter as agent is going to take random action always.As we can see garde of reliabilty is F and constant at 20%.</p>
 <p>3.The agent is getting negative rewards constantly yes by seeing those rewards it is clear that agent is penalized heavily.</p>
 <p>4.The outcome of result is constant as we can see in the above graph.</p>
 <p>5.No the cab is not at all safe because it may stop at green light and start moving at red light. It is taking random action so at the same secenario it may choose to act diffrently so it is not at all reliable.As we can see it is graded F in safety and reliablity.</p>
@@ -13140,13 +13140,13 @@ The no of relative frequency is very high (ranging from .4698 to 0.4167). These 
 <p>**Answer: All the above mentioned features are important but we can avoid deadline and inputs right .</p>
 <p>Waypoint can help in increasing the efficiency as the cab would what can be the next step and help the cab to move in direction of destination.</p>
 <p>Input: light - It is necessary for the safety it should about the light whether it is green or red according what action should be taken if the light is red it should not move and green it should move depending upon oncoming traffic.</p>
-<p>Input: Oncoming - smart cab can know about traffic in opposite direction while taking left turn,suppose if there is traffic but agent stilltakes left turn it can lead to minor voilations and accident .</p>
-<p>Input:left - It indicates if there is a vehicle present on the left and its intented action/direction: None, forward, left or right.</p>
+<p>Input: Oncoming - Smart cab can know about traffic in opposite direction while taking left turn,suppose if there is traffic but agent still takes left turn it can lead to minor voilations and accident .</p>
+<p>Input:left - It indicates if there is a vehicle present on the left and its actions: None, forward, left or right.</p>
 <p>We can skip deadline and input: right for following reasons:</p>
 <p>Deadlines : There is no extra rewards given for reaching early.
 Agent can take wrong decision inorder to reach on deadline like moving in red light,</p>
-<p>Input:right-  The U.S. right-of-way traffic laws. If there is a vehicle present and the inputs: light is red, the Smartcab agent should not go forward or left in any case, so knowing if there is a car on the right does not provide any additional information. Similarly, making a right turn on red, does not require any information on if there is a vehicle on the right, since the lane that the right vehicle is on is separate for the direction of travel. As for the inputs: light is green cases, this is only valid for the case of the smartcab going forward, but this means the Smartcab agent has the right-of-way, so any accident would be the fault of the vehicle on the right.</p>
-<p>If we take  deadline as a input this would drastically increase the number of states we need to train on.</p>
+<p>Input:right-  The U.S. right-of-way traffic laws. If there is a vehicle present and light is red, the Smartcab agent should not take action as forward or left, so information about car in the right is of no use. Similarly, making a right turn on red, does not require any information on if there is a vehicle on the right. As for the inputs: light is green cases, this is only valid for the case of the smartcab going forward, but this means the Smartcab agent has the right-of-way, so any accident we can blame on the car present in the right.</p>
+<p>If we take right and deadline as a input this would drastically increase the number of states we need to train on.</p>
 
 </div>
 </div>
@@ -14507,8 +14507,8 @@ kiRJkjQm/wUToFmCa6RPLQAAAABJRU5ErkJggg==
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><strong>Answer:</strong> There is lot of difference in the bad actions, minor voilation,minor accident,major accident and major voilation as we can see it has decreased after implementation of Q learning. As we can the safey grade is C and reliability grade is D now earlier it was F</p>
-<p>It took 20 training trials before the Q-Learning agent started testing. This number makes sense given that we decremented 0.05 at each training trial with an epsilon-tolerance of 0.05. So, 1.0 - (20 x 0.05) = 0.0 &lt; 0.05.</p>
-<p>Yes, the constant decaying function I implemented for ϵ (the exploration factor) does seem to be accurately represented in the parameters panel.</p>
+<p>It took 20 training trials before the Q-Learning agent started testing.since the decrement was 0.05 at each training trial with an epsilon-tolerance of 0.05. So, training steps were 20 in number.</p>
+<p>Yes, the constant decaying function implemented for ϵ (the exploration factor) does seem to be accurately represented in the parameters panel.</p>
 <p>As the number of training trails increase, the number of bad action actually decrease, and the average reward increased as well.</p>
 <p>Ya there is improvement in safety and reliability earlier both were F but after Q learning it has changed to C and D.</p>
 
@@ -20129,9 +20129,9 @@ SZIm5P8BIaM2APCjDc8AAAAASUVORK5CYII=
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><strong>Answer:</strong>
-1.An epsilon = cos(at) decay function was used, with epsilon starting at 1.00. This function helps in learning of agetnt at early stage , with a gradual decline into exploration.</p>
+1.An epsilon = cos(at) decay function was used,  epsilon was 1.00 at starting and was gradually decling into exploration. This function helps in learning of agent at early stage itself.</p>
 <p>2.Approximately 780 trials were needed before testing was completed.</p>
-<p>3.An epsilon tolerance of 0.001 was used, and an alpha of 0.02. The very low alpha was used to allow the model sufficient trials to train with, and caused the ~780 of trials. A large number of trials is important to increase the safety rating to a maximum. As a result of the small alpha, a smaller tolerance is more appropriate - otherwise a large proportion of trials towards the end of the decay would be missed.</p>
+<p>3.An epsilon tolerance of 0.001 was used, and an alpha of 0.02. The low value of alpha allows the model sufficient training trails , and caused the ~780 of trials. A large number of trials is important to increase the safety rating to a maximum. As a result of the small alpha, a smaller tolerance is more appropriate inorder to get better result as well training of the agent.</p>
 <p>4.A large improvement has been made from the Q-Learner from the previous section.
 The Safety Rating has increased from an F to an A+
 The Reliability Rating has increased from an F to an A.
