@@ -20176,7 +20176,13 @@ The Q-Learner seems to converge towards 730-770 trials, and additional learnings
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><strong>Answer:</strong> My example of an optimal policy would be the following for a red light when the intent is to drive forward with no oncoming traffic. The state should look like this with the possible action of None, forward, left and right:</p>
+<p><strong>Answer:</strong> According to U.S.A. traffic rules:
+If light is red and waypoint is not 'right' always choose None.
+If lights are red and waypoint is 'right', or when green head in the direction of the waypoint when there is no collision, e.g.
+Turning right and left traffic is not 'forwards'
+Going 'forwards', and left or right traffic is not 'forwards'
+Turning 'left', and oncoming is not 'forwards'/'right' etc</p>
+<p>My example of an optimal policy would be the following for a red light when the intent is to drive forward with no oncoming traffic. The state should look like this with the possible action of None, forward, left and right:</p>
 <p>N                 state            action    policy
 1   {'forward', 'red', None, None}  None    optimal
 2   {'forward', 'red', None, None}  forward incorrect
@@ -20185,7 +20191,11 @@ The Q-Learner seems to converge towards 730-770 trials, and additional learnings
 <p>Syntax: (waypoint, inputs['light'], inputs['oncoming'], inputs['left'])</p>
 <p>('forward', 'red', None, None)
  -- forward : -3.48
- -- right : 0.26
+ If lights are red and waypoint is not 'right' always choose None.
+If lights are red and waypoint is 'right', or when green head in the direction of the waypoint when there is no collision, e.g.
+Turning right and left traffic is not 'forwards'
+Going 'forwards', and left or right traffic is not 'forwards'
+Turning 'left', and oncoming is not 'forwards'/'right' etc-- right : 0.26
  -- None : 2.00
  -- left : -3.47
  The action chosen is None as it has max Q value and it is right decission as light is red. Hence it is optimal policy</p>
@@ -20231,7 +20241,7 @@ Agent drove right instead of left as right has max Q value, but in the next wayp
 <p><strong>Answer:</strong>Issues with smartcab:
 The start point and destination is not constant it changes with every trail.
 This means learnings cannot be translated across into different future trials, as each time Q-values could become overfitted towards a particular start point and destination - which is irrelevant to the next trial. For example, a trial with a distance of 1 step would produce a very different result to one with a distance of 20 steps.
-With increase in the number of  trials, performance could get worse (and hence Q-values) because it is attempting to apply more and more trial-specific learnings to all trials.</p>
+With increase in the number of  trials, performance could get worse (and hence Q-values) because it is attempting to apply more and more trial-specific learnings to all trials. Also the decisions of the cab are purely based on the current and immediate envirnoment and cannot percieve conditions at the next intersection.</p>
 <p>Issues with environment:
 One of the key reasons is that all traffic around the Smartcab is continuously moving. Predicting Q-Learning based upon traffic of a location 2 steps ahead will be different by the time the Smartcab reaches the location. Moreover, the traffic lights could be in a different state by the time the lights are reached.</p>
 
