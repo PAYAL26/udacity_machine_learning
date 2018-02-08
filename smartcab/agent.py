@@ -129,7 +129,7 @@ class LearningAgent(Agent):
         # If it is not, create a new dictionary for that state
         #   Then, for each action available, set the initial Q-value to 0.0
 
-        if state not in self.Q:
+        if self.learning and (state not in self.Q) :
             self.Q[state] = {None : 0.0, 'left' : 0.0, 'right' : 0.0, 'forward' : 0.0}
 
 
@@ -155,7 +155,7 @@ class LearningAgent(Agent):
         if self.learning == False :
             action = random.choice( self.valid_actions )
         else : 
-            if self.epsilon >= random.random() :
+            if self.epsilon > random.random() :
                 action =  random.choice( self.valid_actions )
             else :  
                 action = self.get_maxQ(state).get('action')
@@ -178,10 +178,9 @@ class LearningAgent(Agent):
         if self.learning :
                 new_state = self.build_state()
                 print('Debug : ' + str(self.Q.get(state).get(action)))
-                self.Q[state][action] = (1 - self.alpha)*self.Q.get(state).get(action) + self.alpha*(reward + self.get_maxQ(new_state).get('Qvalue'))
-
-                #old_Qvalue = ((1 - learning_rate) * old_Qvalue) + (learning_rate * (reward + max_Qvalue_in_new_state))
-                ####V#####    ##########(1-alpha * V)#######        
+               
+                self.Q[state][action] = (1 - self.alpha)*self.Q.get(state).get(action) + self.alpha*(reward)
+                      
 
 
         return
