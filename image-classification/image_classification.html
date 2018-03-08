@@ -11783,7 +11783,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[7]:</div>
+<div class="prompt input_prompt">In&nbsp;[1]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="sd">&quot;&quot;&quot;</span>
@@ -11834,6 +11834,17 @@ div#notebook {
 <div class="prompt"></div>
 
 
+<div class="output_subarea output_stream output_stderr output_text">
+<pre>CIFAR-10 Dataset: 171MB [00:35, 4.77MB/s]                               
+</pre>
+</div>
+</div>
+
+<div class="output_area">
+
+<div class="prompt"></div>
+
+
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>All files found!
 </pre>
@@ -11869,7 +11880,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[8]:</div>
+<div class="prompt input_prompt">In&nbsp;[2]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#%matplotlib inline</span>
@@ -11912,21 +11923,6 @@ Label - Label Id: 6 Name: frog
 </div>
 </div>
 
-<div class="output_area">
-
-<div class="prompt"></div>
-
-
-
-
-<div class="output_png output_subarea ">
-<img src="data:image/png;base64,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
-"
->
-</div>
-
-</div>
-
 </div>
 </div>
 
@@ -11942,7 +11938,7 @@ Label - Label Id: 6 Name: frog
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[8]:</div>
+<div class="prompt input_prompt">In&nbsp;[3]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">normalize</span><span class="p">(</span><span class="n">x</span><span class="p">):</span>
@@ -11996,7 +11992,7 @@ Label - Label Id: 6 Name: frog
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[9]:</div>
+<div class="prompt input_prompt">In&nbsp;[4]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">labels_map</span> <span class="o">=</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">6</span><span class="p">,</span><span class="mi">7</span><span class="p">,</span><span class="mi">8</span><span class="p">,</span><span class="mi">9</span><span class="p">]</span>
@@ -12062,7 +12058,7 @@ Label - Label Id: 6 Name: frog
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[11]:</div>
+<div class="prompt input_prompt">In&nbsp;[5]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="sd">&quot;&quot;&quot;</span>
@@ -12073,31 +12069,6 @@ Label - Label Id: 6 Name: frog
 </pre></div>
 
 </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-<div class="prompt"></div>
-
-
-<div class="output_subarea output_text output_error">
-<pre>
-<span class="ansi-red-intense-fg ansi-bold">---------------------------------------------------------------------------</span>
-<span class="ansi-red-intense-fg ansi-bold">NameError</span>                                 Traceback (most recent call last)
-<span class="ansi-green-intense-fg ansi-bold">&lt;ipython-input-11-892575dca08d&gt;</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span><span class="ansi-blue-intense-fg ansi-bold">()</span>
-<span class="ansi-green-fg">      3</span> &#34;&#34;&#34;
-<span class="ansi-green-fg">      4</span> <span class="ansi-red-intense-fg ansi-bold"># Preprocess Training, Validation, and Testing Data</span>
-<span class="ansi-green-intense-fg ansi-bold">----&gt; 5</span><span class="ansi-yellow-intense-fg ansi-bold"> </span>helper<span class="ansi-yellow-intense-fg ansi-bold">.</span>preprocess_and_save_data<span class="ansi-yellow-intense-fg ansi-bold">(</span>cifar10_dataset_folder_path<span class="ansi-yellow-intense-fg ansi-bold">,</span> normalize<span class="ansi-yellow-intense-fg ansi-bold">,</span> one_hot_encode<span class="ansi-yellow-intense-fg ansi-bold">)</span>
-
-<span class="ansi-red-intense-fg ansi-bold">NameError</span>: name &#39;helper&#39; is not defined</pre>
-</div>
-</div>
-
 </div>
 </div>
 
@@ -12113,7 +12084,7 @@ Label - Label Id: 6 Name: frog
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[12]:</div>
+<div class="prompt input_prompt">In&nbsp;[6]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="sd">&quot;&quot;&quot;</span>
@@ -12169,7 +12140,7 @@ Label - Label Id: 6 Name: frog
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[13]:</div>
+<div class="prompt input_prompt">In&nbsp;[84]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">tensorflow</span> <span class="k">as</span> <span class="nn">tf</span>
@@ -12267,7 +12238,7 @@ Keep Prob Tests Passed.
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[14]:</div>
+<div class="prompt input_prompt">In&nbsp;[86]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">conv2d_maxpool</span><span class="p">(</span><span class="n">x_tensor</span><span class="p">,</span> <span class="n">conv_num_outputs</span><span class="p">,</span> <span class="n">conv_ksize</span><span class="p">,</span> <span class="n">conv_strides</span><span class="p">,</span> <span class="n">pool_ksize</span><span class="p">,</span> <span class="n">pool_strides</span><span class="p">):</span>
@@ -12282,10 +12253,9 @@ Keep Prob Tests Passed.
 <span class="sd">    : return: A tensor that represents convolution and max pooling of x_tensor</span>
 <span class="sd">    &quot;&quot;&quot;</span>
     <span class="c1"># TODO: Implement Function</span>
-    <span class="n">input1</span> <span class="o">=</span> <span class="n">tf</span><span class="o">.</span><span class="n">placeholder</span><span class="p">(</span><span class="n">tf</span><span class="o">.</span><span class="n">float32</span><span class="p">,</span> <span class="n">shape</span><span class="o">=</span><span class="n">x_tensor</span><span class="o">.</span><span class="n">shape</span><span class="p">)</span>
-    <span class="n">weight</span> <span class="o">=</span> <span class="n">tf</span><span class="o">.</span><span class="n">Variable</span><span class="p">(</span><span class="n">tf</span><span class="o">.</span><span class="n">truncated_normal</span><span class="p">([</span><span class="n">conv_ksize</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">conv_ksize</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span> <span class="nb">int</span><span class="p">(</span><span class="n">x_tensor</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">3</span><span class="p">]),</span> <span class="n">conv_num_outputs</span><span class="p">]))</span>
+    <span class="n">weight</span> <span class="o">=</span> <span class="n">tf</span><span class="o">.</span><span class="n">Variable</span><span class="p">(</span><span class="n">tf</span><span class="o">.</span><span class="n">truncated_normal</span><span class="p">([</span><span class="n">conv_ksize</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">conv_ksize</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span> <span class="nb">int</span><span class="p">(</span><span class="n">x_tensor</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">3</span><span class="p">]),</span> <span class="n">conv_num_outputs</span><span class="p">],</span> <span class="n">stddev</span><span class="o">=</span><span class="mf">0.04</span><span class="p">))</span>
     <span class="n">bias</span> <span class="o">=</span> <span class="n">tf</span><span class="o">.</span><span class="n">Variable</span><span class="p">(</span><span class="n">tf</span><span class="o">.</span><span class="n">zeros</span><span class="p">(</span><span class="n">conv_num_outputs</span><span class="p">))</span>
-    <span class="n">conv_layer</span> <span class="o">=</span> <span class="n">tf</span><span class="o">.</span><span class="n">nn</span><span class="o">.</span><span class="n">conv2d</span><span class="p">(</span><span class="n">input1</span><span class="p">,</span> <span class="n">weight</span><span class="p">,</span> <span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">+</span><span class="nb">list</span><span class="p">(</span><span class="n">conv_strides</span><span class="p">)</span><span class="o">+</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span> <span class="n">padding</span><span class="o">=</span><span class="s1">&#39;SAME&#39;</span><span class="p">)</span>
+    <span class="n">conv_layer</span> <span class="o">=</span> <span class="n">tf</span><span class="o">.</span><span class="n">nn</span><span class="o">.</span><span class="n">conv2d</span><span class="p">(</span><span class="n">x_tensor</span><span class="p">,</span> <span class="n">weight</span><span class="p">,</span> <span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">+</span><span class="nb">list</span><span class="p">(</span><span class="n">conv_strides</span><span class="p">)</span><span class="o">+</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span> <span class="n">padding</span><span class="o">=</span><span class="s1">&#39;SAME&#39;</span><span class="p">)</span>
     <span class="n">conv_layer</span> <span class="o">=</span> <span class="n">tf</span><span class="o">.</span><span class="n">nn</span><span class="o">.</span><span class="n">bias_add</span><span class="p">(</span><span class="n">conv_layer</span><span class="p">,</span> <span class="n">bias</span><span class="p">)</span>
     <span class="n">conv_layer</span> <span class="o">=</span> <span class="n">tf</span><span class="o">.</span><span class="n">nn</span><span class="o">.</span><span class="n">relu</span><span class="p">(</span><span class="n">conv_layer</span><span class="p">)</span>
     
@@ -12334,7 +12304,7 @@ Keep Prob Tests Passed.
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[15]:</div>
+<div class="prompt input_prompt">In&nbsp;[87]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">flatten</span><span class="p">(</span><span class="n">x_tensor</span><span class="p">):</span>
@@ -12389,7 +12359,7 @@ Keep Prob Tests Passed.
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[16]:</div>
+<div class="prompt input_prompt">In&nbsp;[88]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">fully_conn</span><span class="p">(</span><span class="n">x_tensor</span><span class="p">,</span> <span class="n">num_outputs</span><span class="p">):</span>
@@ -12400,7 +12370,7 @@ Keep Prob Tests Passed.
 <span class="sd">    : return: A 2-D tensor where the second dimension is num_outputs.</span>
 <span class="sd">    &quot;&quot;&quot;</span>
     <span class="c1"># TODO: Implement Function</span>
-    <span class="n">weight</span> <span class="o">=</span> <span class="n">tf</span><span class="o">.</span><span class="n">Variable</span><span class="p">(</span><span class="n">tf</span><span class="o">.</span><span class="n">truncated_normal</span><span class="p">([</span><span class="nb">int</span><span class="p">(</span><span class="n">x_tensor</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">1</span><span class="p">]),</span> <span class="n">num_outputs</span><span class="p">]))</span>
+    <span class="n">weight</span> <span class="o">=</span> <span class="n">tf</span><span class="o">.</span><span class="n">Variable</span><span class="p">(</span><span class="n">tf</span><span class="o">.</span><span class="n">truncated_normal</span><span class="p">([</span><span class="nb">int</span><span class="p">(</span><span class="n">x_tensor</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">1</span><span class="p">]),</span> <span class="n">num_outputs</span><span class="p">],</span> <span class="n">stddev</span><span class="o">=</span><span class="mf">0.04</span><span class="p">))</span>
     <span class="n">bias</span> <span class="o">=</span> <span class="n">tf</span><span class="o">.</span><span class="n">Variable</span><span class="p">(</span><span class="n">tf</span><span class="o">.</span><span class="n">zeros</span><span class="p">(</span><span class="n">num_outputs</span><span class="p">))</span>
     <span class="n">fc</span> <span class="o">=</span> <span class="n">tf</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">tf</span><span class="o">.</span><span class="n">matmul</span><span class="p">(</span><span class="n">x_tensor</span><span class="p">,</span> <span class="n">weight</span><span class="p">),</span> <span class="n">bias</span><span class="p">)</span> 
     <span class="k">return</span> <span class="n">tf</span><span class="o">.</span><span class="n">nn</span><span class="o">.</span><span class="n">relu</span><span class="p">(</span><span class="n">fc</span><span class="p">)</span>
@@ -12447,7 +12417,7 @@ Keep Prob Tests Passed.
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[17]:</div>
+<div class="prompt input_prompt">In&nbsp;[89]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">output</span><span class="p">(</span><span class="n">x_tensor</span><span class="p">,</span> <span class="n">num_outputs</span><span class="p">):</span>
@@ -12458,7 +12428,7 @@ Keep Prob Tests Passed.
 <span class="sd">    : return: A 2-D tensor where the second dimension is num_outputs.</span>
 <span class="sd">    &quot;&quot;&quot;</span>
     <span class="c1"># TODO: Implement Function</span>
-    <span class="n">weight</span> <span class="o">=</span> <span class="n">tf</span><span class="o">.</span><span class="n">Variable</span><span class="p">(</span><span class="n">tf</span><span class="o">.</span><span class="n">truncated_normal</span><span class="p">([</span><span class="nb">int</span><span class="p">(</span><span class="n">x_tensor</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">1</span><span class="p">]),</span> <span class="n">num_outputs</span><span class="p">]))</span>
+    <span class="n">weight</span> <span class="o">=</span> <span class="n">tf</span><span class="o">.</span><span class="n">Variable</span><span class="p">(</span><span class="n">tf</span><span class="o">.</span><span class="n">truncated_normal</span><span class="p">([</span><span class="nb">int</span><span class="p">(</span><span class="n">x_tensor</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">1</span><span class="p">]),</span> <span class="n">num_outputs</span><span class="p">],</span> <span class="n">stddev</span><span class="o">=</span><span class="mf">0.04</span><span class="p">))</span>
     <span class="n">bias</span> <span class="o">=</span> <span class="n">tf</span><span class="o">.</span><span class="n">Variable</span><span class="p">(</span><span class="n">tf</span><span class="o">.</span><span class="n">zeros</span><span class="p">(</span><span class="n">num_outputs</span><span class="p">))</span>
     <span class="k">return</span> <span class="n">tf</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">tf</span><span class="o">.</span><span class="n">matmul</span><span class="p">(</span><span class="n">x_tensor</span><span class="p">,</span> <span class="n">weight</span><span class="p">),</span> <span class="n">bias</span><span class="p">)</span> 
 
@@ -12511,7 +12481,7 @@ Keep Prob Tests Passed.
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[18]:</div>
+<div class="prompt input_prompt">In&nbsp;[106]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">conv_net</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">keep_prob</span><span class="p">):</span>
@@ -12525,34 +12495,21 @@ Keep Prob Tests Passed.
     <span class="c1">#    Play around with different number of outputs, kernel size and stride</span>
     <span class="c1"># Function Definition from Above:</span>
     <span class="c1">#    conv2d_maxpool(x_tensor, conv_num_outputs, conv_ksize, conv_strides, pool_ksize, pool_strides)</span>
-    <span class="n">cv1</span> <span class="o">=</span> <span class="n">conv2d_maxpool</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="p">(</span><span class="mi">16</span><span class="p">,</span><span class="mi">16</span><span class="p">),</span> <span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">1</span><span class="p">),</span> <span class="p">(</span><span class="mi">2</span><span class="p">,</span><span class="mi">2</span><span class="p">),</span> <span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">1</span><span class="p">))</span>
-    <span class="n">cv2</span> <span class="o">=</span> <span class="n">conv2d_maxpool</span><span class="p">(</span><span class="n">cv1</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="p">(</span><span class="mi">8</span><span class="p">,</span><span class="mi">8</span><span class="p">),</span> <span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">1</span><span class="p">),</span> <span class="p">(</span><span class="mi">2</span><span class="p">,</span><span class="mi">2</span><span class="p">),</span> <span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">1</span><span class="p">))</span>
-    <span class="n">cv3</span> <span class="o">=</span> <span class="n">conv2d_maxpool</span><span class="p">(</span><span class="n">cv2</span><span class="p">,</span> <span class="mi">15</span><span class="p">,</span> <span class="p">(</span><span class="mi">4</span><span class="p">,</span><span class="mi">4</span><span class="p">),</span> <span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">1</span><span class="p">),</span> <span class="p">(</span><span class="mi">2</span><span class="p">,</span><span class="mi">2</span><span class="p">),</span> <span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">1</span><span class="p">))</span>
-
-    <span class="c1"># TODO: Apply a Flatten Layer</span>
-    <span class="c1"># Function Definition from Above:</span>
-    <span class="c1">#   flatten(x_tensor)</span>
-    <span class="n">flat</span> <span class="o">=</span> <span class="n">flatten</span><span class="p">(</span><span class="n">cv3</span><span class="p">)</span>
+    <span class="n">cv1</span> <span class="o">=</span> <span class="n">conv2d_maxpool</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="mi">128</span><span class="p">,</span> <span class="p">(</span><span class="mi">5</span><span class="p">,</span><span class="mi">5</span><span class="p">),</span> <span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">1</span><span class="p">),</span> <span class="p">(</span><span class="mi">3</span><span class="p">,</span><span class="mi">3</span><span class="p">),</span> <span class="p">(</span><span class="mi">2</span><span class="p">,</span><span class="mi">2</span><span class="p">))</span>
     
-
-    <span class="c1"># TODO: Apply 1, 2, or 3 Fully Connected Layers</span>
-    <span class="c1">#    Play around with different number of outputs</span>
-    <span class="c1"># Function Definition from Above:</span>
-    <span class="c1">#   fully_conn(x_tensor, num_outputs)</span>
-    <span class="n">fc1</span> <span class="o">=</span> <span class="n">fully_conn</span><span class="p">(</span><span class="n">flat</span><span class="p">,</span> <span class="mi">1024</span><span class="p">)</span>
-    <span class="n">fc2</span> <span class="o">=</span> <span class="n">fully_conn</span><span class="p">(</span><span class="n">fc1</span><span class="p">,</span><span class="mi">512</span><span class="p">)</span>
+    <span class="n">cv2</span> <span class="o">=</span> <span class="n">conv2d_maxpool</span><span class="p">(</span><span class="n">cv1</span><span class="p">,</span> <span class="mi">256</span><span class="p">,</span> <span class="p">(</span><span class="mi">5</span><span class="p">,</span><span class="mi">5</span><span class="p">),</span> <span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">1</span><span class="p">),</span> <span class="p">(</span><span class="mi">3</span><span class="p">,</span><span class="mi">3</span><span class="p">),</span> <span class="p">(</span><span class="mi">2</span><span class="p">,</span><span class="mi">2</span><span class="p">))</span>
+    
+    <span class="c1"># Apply a Flatten Layer</span>
+    <span class="n">flat</span> <span class="o">=</span> <span class="n">flatten</span><span class="p">(</span><span class="n">cv2</span><span class="p">)</span>
+    
+    <span class="c1"># 2 Fully-Connected Layers.</span>
+    <span class="n">fc</span> <span class="o">=</span> <span class="n">fully_conn</span><span class="p">(</span><span class="n">flat</span><span class="p">,</span> <span class="mi">256</span><span class="p">)</span>
+    <span class="n">fc</span> <span class="o">=</span> <span class="n">fully_conn</span><span class="p">(</span><span class="n">fc</span><span class="p">,</span> <span class="mi">256</span><span class="p">)</span>
+    <span class="n">fc</span> <span class="o">=</span> <span class="n">tf</span><span class="o">.</span><span class="n">nn</span><span class="o">.</span><span class="n">dropout</span><span class="p">(</span><span class="n">fc</span><span class="p">,</span> <span class="n">keep_prob</span><span class="p">)</span>
     
     
-    <span class="c1"># TODO: Apply an Output Layer</span>
-    <span class="c1">#    Set this to the number of classes</span>
-    <span class="c1"># Function Definition from Above:</span>
-    <span class="c1">#   output(x_tensor, num_outputs)</span>
-    
-    
-    <span class="c1"># TODO: return output</span>
-    <span class="n">output1</span> <span class="o">=</span> <span class="n">output</span><span class="p">(</span><span class="n">fc2</span><span class="p">,</span><span class="mi">10</span><span class="p">)</span>
-    
-    <span class="k">return</span> <span class="n">output</span>
+    <span class="c1"># Output Layer.</span>
+    <span class="k">return</span> <span class="n">output</span><span class="p">(</span><span class="n">fc</span><span class="p">,</span> <span class="mi">10</span><span class="p">)</span>    
 
 
 <span class="sd">&quot;&quot;&quot;</span>
@@ -12601,94 +12558,9 @@ Keep Prob Tests Passed.
 <div class="prompt"></div>
 
 
-<div class="output_subarea output_text output_error">
-<pre>
-<span class="ansi-red-intense-fg ansi-bold">---------------------------------------------------------------------------</span>
-<span class="ansi-red-intense-fg ansi-bold">TypeError</span>                                 Traceback (most recent call last)
-<span class="ansi-green-intense-fg ansi-bold">~\Anaconda2\envs\tensorflow\lib\site-packages\tensorflow\python\framework\tensor_util.py</span> in <span class="ansi-cyan-fg">make_tensor_proto</span><span class="ansi-blue-intense-fg ansi-bold">(values, dtype, shape, verify_shape)</span>
-<span class="ansi-green-fg">    497</span>     <span class="ansi-green-intense-fg ansi-bold">try</span><span class="ansi-yellow-intense-fg ansi-bold">:</span>
-<span class="ansi-green-intense-fg ansi-bold">--&gt; 498</span><span class="ansi-yellow-intense-fg ansi-bold">       </span>str_values <span class="ansi-yellow-intense-fg ansi-bold">=</span> <span class="ansi-yellow-intense-fg ansi-bold">[</span>compat<span class="ansi-yellow-intense-fg ansi-bold">.</span>as_bytes<span class="ansi-yellow-intense-fg ansi-bold">(</span>x<span class="ansi-yellow-intense-fg ansi-bold">)</span> <span class="ansi-green-intense-fg ansi-bold">for</span> x <span class="ansi-green-intense-fg ansi-bold">in</span> proto_values<span class="ansi-yellow-intense-fg ansi-bold">]</span>
-<span class="ansi-green-fg">    499</span>     <span class="ansi-green-intense-fg ansi-bold">except</span> TypeError<span class="ansi-yellow-intense-fg ansi-bold">:</span>
-
-<span class="ansi-green-intense-fg ansi-bold">~\Anaconda2\envs\tensorflow\lib\site-packages\tensorflow\python\framework\tensor_util.py</span> in <span class="ansi-cyan-fg">&lt;listcomp&gt;</span><span class="ansi-blue-intense-fg ansi-bold">(.0)</span>
-<span class="ansi-green-fg">    497</span>     <span class="ansi-green-intense-fg ansi-bold">try</span><span class="ansi-yellow-intense-fg ansi-bold">:</span>
-<span class="ansi-green-intense-fg ansi-bold">--&gt; 498</span><span class="ansi-yellow-intense-fg ansi-bold">       </span>str_values <span class="ansi-yellow-intense-fg ansi-bold">=</span> <span class="ansi-yellow-intense-fg ansi-bold">[</span>compat<span class="ansi-yellow-intense-fg ansi-bold">.</span>as_bytes<span class="ansi-yellow-intense-fg ansi-bold">(</span>x<span class="ansi-yellow-intense-fg ansi-bold">)</span> <span class="ansi-green-intense-fg ansi-bold">for</span> x <span class="ansi-green-intense-fg ansi-bold">in</span> proto_values<span class="ansi-yellow-intense-fg ansi-bold">]</span>
-<span class="ansi-green-fg">    499</span>     <span class="ansi-green-intense-fg ansi-bold">except</span> TypeError<span class="ansi-yellow-intense-fg ansi-bold">:</span>
-
-<span class="ansi-green-intense-fg ansi-bold">~\Anaconda2\envs\tensorflow\lib\site-packages\tensorflow\python\util\compat.py</span> in <span class="ansi-cyan-fg">as_bytes</span><span class="ansi-blue-intense-fg ansi-bold">(bytes_or_text, encoding)</span>
-<span class="ansi-green-fg">     64</span>     raise TypeError(&#39;Expected binary or unicode string, got %r&#39; %
-<span class="ansi-green-intense-fg ansi-bold">---&gt; 65</span><span class="ansi-yellow-intense-fg ansi-bold">                     (bytes_or_text,))
-</span><span class="ansi-green-fg">     66</span> 
-
-<span class="ansi-red-intense-fg ansi-bold">TypeError</span>: Expected binary or unicode string, got &lt;function output at 0x00000052E6606158&gt;
-
-During handling of the above exception, another exception occurred:
-
-<span class="ansi-red-intense-fg ansi-bold">TypeError</span>                                 Traceback (most recent call last)
-<span class="ansi-green-intense-fg ansi-bold">&lt;ipython-input-18-8c8dfc0b0020&gt;</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span><span class="ansi-blue-intense-fg ansi-bold">()</span>
-<span class="ansi-green-fg">     59</span> 
-<span class="ansi-green-fg">     60</span> <span class="ansi-red-intense-fg ansi-bold"># Name logits Tensor, so that is can be loaded from disk after training</span>
-<span class="ansi-green-intense-fg ansi-bold">---&gt; 61</span><span class="ansi-yellow-intense-fg ansi-bold"> </span>logits <span class="ansi-yellow-intense-fg ansi-bold">=</span> tf<span class="ansi-yellow-intense-fg ansi-bold">.</span>identity<span class="ansi-yellow-intense-fg ansi-bold">(</span>logits<span class="ansi-yellow-intense-fg ansi-bold">,</span> name<span class="ansi-yellow-intense-fg ansi-bold">=</span><span class="ansi-blue-intense-fg ansi-bold">&#39;logits&#39;</span><span class="ansi-yellow-intense-fg ansi-bold">)</span>
-<span class="ansi-green-fg">     62</span> 
-<span class="ansi-green-fg">     63</span> <span class="ansi-red-intense-fg ansi-bold"># Loss and Optimizer</span>
-
-<span class="ansi-green-intense-fg ansi-bold">~\Anaconda2\envs\tensorflow\lib\site-packages\tensorflow\python\ops\array_ops.py</span> in <span class="ansi-cyan-fg">identity</span><span class="ansi-blue-intense-fg ansi-bold">(input, name)</span>
-<span class="ansi-green-fg">    125</span>   &#34;&#34;&#34;
-<span class="ansi-green-fg">    126</span>   <span class="ansi-green-intense-fg ansi-bold">if</span> context<span class="ansi-yellow-intense-fg ansi-bold">.</span>in_graph_mode<span class="ansi-yellow-intense-fg ansi-bold">(</span><span class="ansi-yellow-intense-fg ansi-bold">)</span><span class="ansi-yellow-intense-fg ansi-bold">:</span>
-<span class="ansi-green-intense-fg ansi-bold">--&gt; 127</span><span class="ansi-yellow-intense-fg ansi-bold">     </span><span class="ansi-green-intense-fg ansi-bold">return</span> gen_array_ops<span class="ansi-yellow-intense-fg ansi-bold">.</span>identity<span class="ansi-yellow-intense-fg ansi-bold">(</span>input<span class="ansi-yellow-intense-fg ansi-bold">,</span> name<span class="ansi-yellow-intense-fg ansi-bold">=</span>name<span class="ansi-yellow-intense-fg ansi-bold">)</span>
-<span class="ansi-green-fg">    128</span>   <span class="ansi-green-intense-fg ansi-bold">else</span><span class="ansi-yellow-intense-fg ansi-bold">:</span>
-<span class="ansi-green-fg">    129</span>     input <span class="ansi-yellow-intense-fg ansi-bold">=</span> ops<span class="ansi-yellow-intense-fg ansi-bold">.</span>convert_to_tensor<span class="ansi-yellow-intense-fg ansi-bold">(</span>input<span class="ansi-yellow-intense-fg ansi-bold">)</span>
-
-<span class="ansi-green-intense-fg ansi-bold">~\Anaconda2\envs\tensorflow\lib\site-packages\tensorflow\python\ops\gen_array_ops.py</span> in <span class="ansi-cyan-fg">identity</span><span class="ansi-blue-intense-fg ansi-bold">(input, name)</span>
-<span class="ansi-green-fg">   2726</span>   <span class="ansi-green-intense-fg ansi-bold">if</span> _ctx<span class="ansi-yellow-intense-fg ansi-bold">.</span>in_graph_mode<span class="ansi-yellow-intense-fg ansi-bold">(</span><span class="ansi-yellow-intense-fg ansi-bold">)</span><span class="ansi-yellow-intense-fg ansi-bold">:</span>
-<span class="ansi-green-fg">   2727</span>     _, _, _op = _op_def_lib._apply_op_helper(
-<span class="ansi-green-intense-fg ansi-bold">-&gt; 2728</span><span class="ansi-yellow-intense-fg ansi-bold">         &#34;Identity&#34;, input=input, name=name)
-</span><span class="ansi-green-fg">   2729</span>     _result <span class="ansi-yellow-intense-fg ansi-bold">=</span> _op<span class="ansi-yellow-intense-fg ansi-bold">.</span>outputs<span class="ansi-yellow-intense-fg ansi-bold">[</span><span class="ansi-yellow-intense-fg ansi-bold">:</span><span class="ansi-yellow-intense-fg ansi-bold">]</span>
-<span class="ansi-green-fg">   2730</span>     _inputs_flat <span class="ansi-yellow-intense-fg ansi-bold">=</span> _op<span class="ansi-yellow-intense-fg ansi-bold">.</span>inputs
-
-<span class="ansi-green-intense-fg ansi-bold">~\Anaconda2\envs\tensorflow\lib\site-packages\tensorflow\python\framework\op_def_library.py</span> in <span class="ansi-cyan-fg">_apply_op_helper</span><span class="ansi-blue-intense-fg ansi-bold">(self, op_type_name, name, **keywords)</span>
-<span class="ansi-green-fg">    511</span>           <span class="ansi-green-intense-fg ansi-bold">except</span> TypeError <span class="ansi-green-intense-fg ansi-bold">as</span> err<span class="ansi-yellow-intense-fg ansi-bold">:</span>
-<span class="ansi-green-fg">    512</span>             <span class="ansi-green-intense-fg ansi-bold">if</span> dtype <span class="ansi-green-intense-fg ansi-bold">is</span> <span class="ansi-green-intense-fg ansi-bold">None</span><span class="ansi-yellow-intense-fg ansi-bold">:</span>
-<span class="ansi-green-intense-fg ansi-bold">--&gt; 513</span><span class="ansi-yellow-intense-fg ansi-bold">               </span><span class="ansi-green-intense-fg ansi-bold">raise</span> err
-<span class="ansi-green-fg">    514</span>             <span class="ansi-green-intense-fg ansi-bold">else</span><span class="ansi-yellow-intense-fg ansi-bold">:</span>
-<span class="ansi-green-fg">    515</span>               raise TypeError(
-
-<span class="ansi-green-intense-fg ansi-bold">~\Anaconda2\envs\tensorflow\lib\site-packages\tensorflow\python\framework\op_def_library.py</span> in <span class="ansi-cyan-fg">_apply_op_helper</span><span class="ansi-blue-intense-fg ansi-bold">(self, op_type_name, name, **keywords)</span>
-<span class="ansi-green-fg">    508</span>                 dtype<span class="ansi-yellow-intense-fg ansi-bold">=</span>dtype<span class="ansi-yellow-intense-fg ansi-bold">,</span>
-<span class="ansi-green-fg">    509</span>                 as_ref<span class="ansi-yellow-intense-fg ansi-bold">=</span>input_arg<span class="ansi-yellow-intense-fg ansi-bold">.</span>is_ref<span class="ansi-yellow-intense-fg ansi-bold">,</span>
-<span class="ansi-green-intense-fg ansi-bold">--&gt; 510</span><span class="ansi-yellow-intense-fg ansi-bold">                 preferred_dtype=default_dtype)
-</span><span class="ansi-green-fg">    511</span>           <span class="ansi-green-intense-fg ansi-bold">except</span> TypeError <span class="ansi-green-intense-fg ansi-bold">as</span> err<span class="ansi-yellow-intense-fg ansi-bold">:</span>
-<span class="ansi-green-fg">    512</span>             <span class="ansi-green-intense-fg ansi-bold">if</span> dtype <span class="ansi-green-intense-fg ansi-bold">is</span> <span class="ansi-green-intense-fg ansi-bold">None</span><span class="ansi-yellow-intense-fg ansi-bold">:</span>
-
-<span class="ansi-green-intense-fg ansi-bold">~\Anaconda2\envs\tensorflow\lib\site-packages\tensorflow\python\framework\ops.py</span> in <span class="ansi-cyan-fg">internal_convert_to_tensor</span><span class="ansi-blue-intense-fg ansi-bold">(value, dtype, name, as_ref, preferred_dtype, ctx)</span>
-<span class="ansi-green-fg">   1020</span> 
-<span class="ansi-green-fg">   1021</span>     <span class="ansi-green-intense-fg ansi-bold">if</span> ret <span class="ansi-green-intense-fg ansi-bold">is</span> <span class="ansi-green-intense-fg ansi-bold">None</span><span class="ansi-yellow-intense-fg ansi-bold">:</span>
-<span class="ansi-green-intense-fg ansi-bold">-&gt; 1022</span><span class="ansi-yellow-intense-fg ansi-bold">       </span>ret <span class="ansi-yellow-intense-fg ansi-bold">=</span> conversion_func<span class="ansi-yellow-intense-fg ansi-bold">(</span>value<span class="ansi-yellow-intense-fg ansi-bold">,</span> dtype<span class="ansi-yellow-intense-fg ansi-bold">=</span>dtype<span class="ansi-yellow-intense-fg ansi-bold">,</span> name<span class="ansi-yellow-intense-fg ansi-bold">=</span>name<span class="ansi-yellow-intense-fg ansi-bold">,</span> as_ref<span class="ansi-yellow-intense-fg ansi-bold">=</span>as_ref<span class="ansi-yellow-intense-fg ansi-bold">)</span>
-<span class="ansi-green-fg">   1023</span> 
-<span class="ansi-green-fg">   1024</span>     <span class="ansi-green-intense-fg ansi-bold">if</span> ret <span class="ansi-green-intense-fg ansi-bold">is</span> NotImplemented<span class="ansi-yellow-intense-fg ansi-bold">:</span>
-
-<span class="ansi-green-intense-fg ansi-bold">~\Anaconda2\envs\tensorflow\lib\site-packages\tensorflow\python\framework\constant_op.py</span> in <span class="ansi-cyan-fg">_constant_tensor_conversion_function</span><span class="ansi-blue-intense-fg ansi-bold">(v, dtype, name, as_ref)</span>
-<span class="ansi-green-fg">    231</span>                                          as_ref=False):
-<span class="ansi-green-fg">    232</span>   _ <span class="ansi-yellow-intense-fg ansi-bold">=</span> as_ref
-<span class="ansi-green-intense-fg ansi-bold">--&gt; 233</span><span class="ansi-yellow-intense-fg ansi-bold">   </span><span class="ansi-green-intense-fg ansi-bold">return</span> constant<span class="ansi-yellow-intense-fg ansi-bold">(</span>v<span class="ansi-yellow-intense-fg ansi-bold">,</span> dtype<span class="ansi-yellow-intense-fg ansi-bold">=</span>dtype<span class="ansi-yellow-intense-fg ansi-bold">,</span> name<span class="ansi-yellow-intense-fg ansi-bold">=</span>name<span class="ansi-yellow-intense-fg ansi-bold">)</span>
-<span class="ansi-green-fg">    234</span> 
-<span class="ansi-green-fg">    235</span> 
-
-<span class="ansi-green-intense-fg ansi-bold">~\Anaconda2\envs\tensorflow\lib\site-packages\tensorflow\python\framework\constant_op.py</span> in <span class="ansi-cyan-fg">constant</span><span class="ansi-blue-intense-fg ansi-bold">(value, dtype, shape, name, verify_shape)</span>
-<span class="ansi-green-fg">    210</span>   tensor_value.tensor.CopyFrom(
-<span class="ansi-green-fg">    211</span>       tensor_util.make_tensor_proto(
-<span class="ansi-green-intense-fg ansi-bold">--&gt; 212</span><span class="ansi-yellow-intense-fg ansi-bold">           value, dtype=dtype, shape=shape, verify_shape=verify_shape))
-</span><span class="ansi-green-fg">    213</span>   dtype_value <span class="ansi-yellow-intense-fg ansi-bold">=</span> attr_value_pb2<span class="ansi-yellow-intense-fg ansi-bold">.</span>AttrValue<span class="ansi-yellow-intense-fg ansi-bold">(</span>type<span class="ansi-yellow-intense-fg ansi-bold">=</span>tensor_value<span class="ansi-yellow-intense-fg ansi-bold">.</span>tensor<span class="ansi-yellow-intense-fg ansi-bold">.</span>dtype<span class="ansi-yellow-intense-fg ansi-bold">)</span>
-<span class="ansi-green-fg">    214</span>   const_tensor = g.create_op(
-
-<span class="ansi-green-intense-fg ansi-bold">~\Anaconda2\envs\tensorflow\lib\site-packages\tensorflow\python\framework\tensor_util.py</span> in <span class="ansi-cyan-fg">make_tensor_proto</span><span class="ansi-blue-intense-fg ansi-bold">(values, dtype, shape, verify_shape)</span>
-<span class="ansi-green-fg">    500</span>       raise TypeError(&#34;Failed to convert object of type %s to Tensor. &#34;
-<span class="ansi-green-fg">    501</span>                       <span class="ansi-blue-intense-fg ansi-bold">&#34;Contents: %s. Consider casting elements to a &#34;</span>
-<span class="ansi-green-intense-fg ansi-bold">--&gt; 502</span><span class="ansi-yellow-intense-fg ansi-bold">                       &#34;supported type.&#34; % (type(values), values))
-</span><span class="ansi-green-fg">    503</span>     tensor_proto<span class="ansi-yellow-intense-fg ansi-bold">.</span>string_val<span class="ansi-yellow-intense-fg ansi-bold">.</span>extend<span class="ansi-yellow-intense-fg ansi-bold">(</span>str_values<span class="ansi-yellow-intense-fg ansi-bold">)</span>
-<span class="ansi-green-fg">    504</span>     <span class="ansi-green-intense-fg ansi-bold">return</span> tensor_proto
-
-<span class="ansi-red-intense-fg ansi-bold">TypeError</span>: Failed to convert object of type &lt;class &#39;function&#39;&gt; to Tensor. Contents: &lt;function output at 0x00000052E6606158&gt;. Consider casting elements to a supported type.</pre>
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Neural Network Built!
+</pre>
 </div>
 </div>
 
@@ -12714,7 +12586,7 @@ During handling of the above exception, another exception occurred:
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[107]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">train_neural_network</span><span class="p">(</span><span class="n">session</span><span class="p">,</span> <span class="n">optimizer</span><span class="p">,</span> <span class="n">keep_probability</span><span class="p">,</span> <span class="n">feature_batch</span><span class="p">,</span> <span class="n">label_batch</span><span class="p">):</span>
@@ -12727,6 +12599,10 @@ During handling of the above exception, another exception occurred:
 <span class="sd">    : label_batch: Batch of Numpy label data</span>
 <span class="sd">    &quot;&quot;&quot;</span>
     <span class="c1"># TODO: Implement Function</span>
+    <span class="n">session</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="n">optimizer</span><span class="p">,</span> <span class="n">feed_dict</span><span class="o">=</span><span class="p">{</span>
+                <span class="n">x</span><span class="p">:</span> <span class="n">feature_batch</span><span class="p">,</span>
+                <span class="n">y</span><span class="p">:</span> <span class="n">label_batch</span><span class="p">,</span>
+                <span class="n">keep_prob</span><span class="p">:</span> <span class="n">keep_probability</span> <span class="p">})</span>
     <span class="k">pass</span>
 
 
@@ -12737,6 +12613,24 @@ During handling of the above exception, another exception occurred:
 </pre></div>
 
 </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Tests Passed
+</pre>
+</div>
+</div>
+
 </div>
 </div>
 
@@ -12752,7 +12646,7 @@ During handling of the above exception, another exception occurred:
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[108]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">print_stats</span><span class="p">(</span><span class="n">session</span><span class="p">,</span> <span class="n">feature_batch</span><span class="p">,</span> <span class="n">label_batch</span><span class="p">,</span> <span class="n">cost</span><span class="p">,</span> <span class="n">accuracy</span><span class="p">):</span>
@@ -12765,6 +12659,15 @@ During handling of the above exception, another exception occurred:
 <span class="sd">    : accuracy: TensorFlow accuracy function</span>
 <span class="sd">    &quot;&quot;&quot;</span>
     <span class="c1"># TODO: Implement Function</span>
+    <span class="n">loss</span> <span class="o">=</span> <span class="n">session</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="n">cost</span><span class="p">,</span> <span class="n">feed_dict</span><span class="o">=</span><span class="p">{</span>
+                <span class="n">x</span><span class="p">:</span> <span class="n">feature_batch</span><span class="p">,</span>
+                <span class="n">y</span><span class="p">:</span> <span class="n">label_batch</span><span class="p">,</span>
+                <span class="n">keep_prob</span><span class="p">:</span> <span class="mf">1.</span><span class="p">})</span>
+    <span class="n">valid_acc</span> <span class="o">=</span> <span class="n">session</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="n">accuracy</span><span class="p">,</span> <span class="n">feed_dict</span><span class="o">=</span><span class="p">{</span>
+                <span class="n">x</span><span class="p">:</span> <span class="n">valid_features</span> <span class="p">,</span>
+                <span class="n">y</span><span class="p">:</span> <span class="n">valid_labels</span><span class="p">,</span>
+                <span class="n">keep_prob</span><span class="p">:</span> <span class="mf">1.</span><span class="p">})</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Loss: </span><span class="si">{:&gt;10.4f}</span><span class="s2"> </span><span class="se">\t</span><span class="s2">Validation Accuracy: </span><span class="si">{:&gt;.6f}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">loss</span><span class="p">,</span> <span class="n">valid_acc</span><span class="p">))</span>
     <span class="k">pass</span>
 </pre></div>
 
@@ -12795,13 +12698,13 @@ During handling of the above exception, another exception occurred:
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[113]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># TODO: Tune Parameters</span>
-<span class="n">epochs</span> <span class="o">=</span> <span class="kc">None</span>
-<span class="n">batch_size</span> <span class="o">=</span> <span class="kc">None</span>
-<span class="n">keep_probability</span> <span class="o">=</span> <span class="kc">None</span>
+<span class="n">epochs</span> <span class="o">=</span> <span class="mi">45</span>
+<span class="n">batch_size</span> <span class="o">=</span> <span class="mi">256</span>
+<span class="n">keep_probability</span> <span class="o">=</span> <span class="mf">0.7</span>
 </pre></div>
 
 </div>
@@ -12820,7 +12723,7 @@ During handling of the above exception, another exception occurred:
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[114]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="sd">&quot;&quot;&quot;</span>
@@ -12844,6 +12747,69 @@ During handling of the above exception, another exception occurred:
 </div>
 </div>
 
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Checking the Training on a Single Batch...
+Epoch  1, CIFAR-10 Batch 1:  Loss:     2.0703 	Validation Accuracy: 0.299000
+Epoch  2, CIFAR-10 Batch 1:  Loss:     1.7494 	Validation Accuracy: 0.424200
+Epoch  3, CIFAR-10 Batch 1:  Loss:     1.5107 	Validation Accuracy: 0.462200
+Epoch  4, CIFAR-10 Batch 1:  Loss:     1.2479 	Validation Accuracy: 0.486800
+Epoch  5, CIFAR-10 Batch 1:  Loss:     0.9853 	Validation Accuracy: 0.488400
+Epoch  6, CIFAR-10 Batch 1:  Loss:     0.8377 	Validation Accuracy: 0.562400
+Epoch  7, CIFAR-10 Batch 1:  Loss:     0.6299 	Validation Accuracy: 0.566800
+Epoch  8, CIFAR-10 Batch 1:  Loss:     0.4755 	Validation Accuracy: 0.597600
+Epoch  9, CIFAR-10 Batch 1:  Loss:     0.3237 	Validation Accuracy: 0.573200
+Epoch 10, CIFAR-10 Batch 1:  Loss:     0.2674 	Validation Accuracy: 0.607600
+Epoch 11, CIFAR-10 Batch 1:  Loss:     0.2539 	Validation Accuracy: 0.589400
+Epoch 12, CIFAR-10 Batch 1:  Loss:     0.1579 	Validation Accuracy: 0.592200
+Epoch 13, CIFAR-10 Batch 1:  Loss:     0.1071 	Validation Accuracy: 0.589600
+Epoch 14, CIFAR-10 Batch 1:  Loss:     0.1190 	Validation Accuracy: 0.589000
+Epoch 15, CIFAR-10 Batch 1:  Loss:     0.0619 	Validation Accuracy: 0.598200
+Epoch 16, CIFAR-10 Batch 1:  Loss:     0.0283 	Validation Accuracy: 0.612200
+Epoch 17, CIFAR-10 Batch 1:  Loss:     0.0322 	Validation Accuracy: 0.597200
+Epoch 18, CIFAR-10 Batch 1:  Loss:     0.0589 	Validation Accuracy: 0.578800
+Epoch 19, CIFAR-10 Batch 1:  Loss:     0.0142 	Validation Accuracy: 0.607800
+Epoch 20, CIFAR-10 Batch 1:  Loss:     0.0190 	Validation Accuracy: 0.629800
+Epoch 21, CIFAR-10 Batch 1:  Loss:     0.0481 	Validation Accuracy: 0.565000
+Epoch 22, CIFAR-10 Batch 1:  Loss:     0.0093 	Validation Accuracy: 0.615000
+Epoch 23, CIFAR-10 Batch 1:  Loss:     0.0076 	Validation Accuracy: 0.628400
+Epoch 24, CIFAR-10 Batch 1:  Loss:     0.0035 	Validation Accuracy: 0.624800
+Epoch 25, CIFAR-10 Batch 1:  Loss:     0.0105 	Validation Accuracy: 0.614600
+Epoch 26, CIFAR-10 Batch 1:  Loss:     0.0034 	Validation Accuracy: 0.626800
+Epoch 27, CIFAR-10 Batch 1:  Loss:     0.0065 	Validation Accuracy: 0.605000
+Epoch 28, CIFAR-10 Batch 1:  Loss:     0.0079 	Validation Accuracy: 0.599800
+Epoch 29, CIFAR-10 Batch 1:  Loss:     0.0159 	Validation Accuracy: 0.573800
+Epoch 30, CIFAR-10 Batch 1:  Loss:     0.0040 	Validation Accuracy: 0.608600
+Epoch 31, CIFAR-10 Batch 1:  Loss:     0.0012 	Validation Accuracy: 0.598200
+Epoch 32, CIFAR-10 Batch 1:  Loss:     0.0062 	Validation Accuracy: 0.599600
+Epoch 33, CIFAR-10 Batch 1:  Loss:     0.0008 	Validation Accuracy: 0.616200
+Epoch 34, CIFAR-10 Batch 1:  Loss:     0.0020 	Validation Accuracy: 0.607800
+Epoch 35, CIFAR-10 Batch 1:  Loss:     0.0008 	Validation Accuracy: 0.616600
+Epoch 36, CIFAR-10 Batch 1:  Loss:     0.0012 	Validation Accuracy: 0.593200
+Epoch 37, CIFAR-10 Batch 1:  Loss:     0.0005 	Validation Accuracy: 0.619200
+Epoch 38, CIFAR-10 Batch 1:  Loss:     0.0003 	Validation Accuracy: 0.614000
+Epoch 39, CIFAR-10 Batch 1:  Loss:     0.0009 	Validation Accuracy: 0.622000
+Epoch 40, CIFAR-10 Batch 1:  Loss:     0.0001 	Validation Accuracy: 0.628000
+Epoch 41, CIFAR-10 Batch 1:  Loss:     0.0004 	Validation Accuracy: 0.625200
+Epoch 42, CIFAR-10 Batch 1:  Loss:     0.0001 	Validation Accuracy: 0.632000
+Epoch 43, CIFAR-10 Batch 1:  Loss:     0.0000 	Validation Accuracy: 0.638000
+Epoch 44, CIFAR-10 Batch 1:  Loss:     0.0000 	Validation Accuracy: 0.633600
+Epoch 45, CIFAR-10 Batch 1:  Loss:     0.0000 	Validation Accuracy: 0.639000
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div>
@@ -12856,7 +12822,7 @@ During handling of the above exception, another exception occurred:
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[115]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="sd">&quot;&quot;&quot;</span>
@@ -12888,6 +12854,249 @@ During handling of the above exception, another exception occurred:
 </div>
 </div>
 
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Training...
+Epoch  1, CIFAR-10 Batch 1:  Loss:     2.0007 	Validation Accuracy: 0.298000
+Epoch  1, CIFAR-10 Batch 2:  Loss:     1.5526 	Validation Accuracy: 0.413000
+Epoch  1, CIFAR-10 Batch 3:  Loss:     1.2211 	Validation Accuracy: 0.448800
+Epoch  1, CIFAR-10 Batch 4:  Loss:     1.3148 	Validation Accuracy: 0.478400
+Epoch  1, CIFAR-10 Batch 5:  Loss:     1.2694 	Validation Accuracy: 0.522800
+Epoch  2, CIFAR-10 Batch 1:  Loss:     1.2343 	Validation Accuracy: 0.518000
+Epoch  2, CIFAR-10 Batch 2:  Loss:     0.9681 	Validation Accuracy: 0.570200
+Epoch  2, CIFAR-10 Batch 3:  Loss:     0.8094 	Validation Accuracy: 0.590200
+Epoch  2, CIFAR-10 Batch 4:  Loss:     0.8184 	Validation Accuracy: 0.600800
+Epoch  2, CIFAR-10 Batch 5:  Loss:     0.7677 	Validation Accuracy: 0.628000
+Epoch  3, CIFAR-10 Batch 1:  Loss:     0.8118 	Validation Accuracy: 0.644800
+Epoch  3, CIFAR-10 Batch 2:  Loss:     0.6243 	Validation Accuracy: 0.645200
+Epoch  3, CIFAR-10 Batch 3:  Loss:     0.4926 	Validation Accuracy: 0.663800
+Epoch  3, CIFAR-10 Batch 4:  Loss:     0.4995 	Validation Accuracy: 0.682800
+Epoch  3, CIFAR-10 Batch 5:  Loss:     0.4132 	Validation Accuracy: 0.685200
+Epoch  4, CIFAR-10 Batch 1:  Loss:     0.5744 	Validation Accuracy: 0.684200
+Epoch  4, CIFAR-10 Batch 2:  Loss:     0.5085 	Validation Accuracy: 0.663200
+Epoch  4, CIFAR-10 Batch 3:  Loss:     0.3061 	Validation Accuracy: 0.702200
+Epoch  4, CIFAR-10 Batch 4:  Loss:     0.2646 	Validation Accuracy: 0.700000
+Epoch  4, CIFAR-10 Batch 5:  Loss:     0.2529 	Validation Accuracy: 0.699800
+Epoch  5, CIFAR-10 Batch 1:  Loss:     0.3238 	Validation Accuracy: 0.691600
+Epoch  5, CIFAR-10 Batch 2:  Loss:     0.2931 	Validation Accuracy: 0.687200
+Epoch  5, CIFAR-10 Batch 3:  Loss:     0.1873 	Validation Accuracy: 0.719200
+Epoch  5, CIFAR-10 Batch 4:  Loss:     0.1777 	Validation Accuracy: 0.703000
+Epoch  5, CIFAR-10 Batch 5:  Loss:     0.1372 	Validation Accuracy: 0.713600
+Epoch  6, CIFAR-10 Batch 1:  Loss:     0.1739 	Validation Accuracy: 0.720200
+Epoch  6, CIFAR-10 Batch 2:  Loss:     0.2350 	Validation Accuracy: 0.686200
+Epoch  6, CIFAR-10 Batch 3:  Loss:     0.1284 	Validation Accuracy: 0.704600
+Epoch  6, CIFAR-10 Batch 4:  Loss:     0.1806 	Validation Accuracy: 0.687400
+Epoch  6, CIFAR-10 Batch 5:  Loss:     0.0888 	Validation Accuracy: 0.724600
+Epoch  7, CIFAR-10 Batch 1:  Loss:     0.1094 	Validation Accuracy: 0.723000
+Epoch  7, CIFAR-10 Batch 2:  Loss:     0.1322 	Validation Accuracy: 0.705800
+Epoch  7, CIFAR-10 Batch 3:  Loss:     0.0860 	Validation Accuracy: 0.734400
+Epoch  7, CIFAR-10 Batch 4:  Loss:     0.0868 	Validation Accuracy: 0.721400
+Epoch  7, CIFAR-10 Batch 5:  Loss:     0.0851 	Validation Accuracy: 0.720800
+Epoch  8, CIFAR-10 Batch 1:  Loss:     0.1123 	Validation Accuracy: 0.721400
+Epoch  8, CIFAR-10 Batch 2:  Loss:     0.0913 	Validation Accuracy: 0.692200
+Epoch  8, CIFAR-10 Batch 3:  Loss:     0.0605 	Validation Accuracy: 0.705600
+Epoch  8, CIFAR-10 Batch 4:  Loss:     0.0879 	Validation Accuracy: 0.709800
+Epoch  8, CIFAR-10 Batch 5:  Loss:     0.0518 	Validation Accuracy: 0.711200
+Epoch  9, CIFAR-10 Batch 1:  Loss:     0.0652 	Validation Accuracy: 0.734200
+Epoch  9, CIFAR-10 Batch 2:  Loss:     0.0620 	Validation Accuracy: 0.705800
+Epoch  9, CIFAR-10 Batch 3:  Loss:     0.0482 	Validation Accuracy: 0.709200
+Epoch  9, CIFAR-10 Batch 4:  Loss:     0.0616 	Validation Accuracy: 0.725800
+Epoch  9, CIFAR-10 Batch 5:  Loss:     0.0197 	Validation Accuracy: 0.742400
+Epoch 10, CIFAR-10 Batch 1:  Loss:     0.0324 	Validation Accuracy: 0.718200
+Epoch 10, CIFAR-10 Batch 2:  Loss:     0.0242 	Validation Accuracy: 0.700800
+Epoch 10, CIFAR-10 Batch 3:  Loss:     0.0287 	Validation Accuracy: 0.706000
+Epoch 10, CIFAR-10 Batch 4:  Loss:     0.0386 	Validation Accuracy: 0.726200
+Epoch 10, CIFAR-10 Batch 5:  Loss:     0.0281 	Validation Accuracy: 0.709400
+Epoch 11, CIFAR-10 Batch 1:  Loss:     0.0406 	Validation Accuracy: 0.733600
+Epoch 11, CIFAR-10 Batch 2:  Loss:     0.0297 	Validation Accuracy: 0.744200
+Epoch 11, CIFAR-10 Batch 3:  Loss:     0.0229 	Validation Accuracy: 0.721400
+Epoch 11, CIFAR-10 Batch 4:  Loss:     0.0178 	Validation Accuracy: 0.738200
+Epoch 11, CIFAR-10 Batch 5:  Loss:     0.0135 	Validation Accuracy: 0.719200
+Epoch 12, CIFAR-10 Batch 1:  Loss:     0.0301 	Validation Accuracy: 0.737000
+Epoch 12, CIFAR-10 Batch 2:  Loss:     0.0515 	Validation Accuracy: 0.726000
+Epoch 12, CIFAR-10 Batch 3:  Loss:     0.0136 	Validation Accuracy: 0.725000
+Epoch 12, CIFAR-10 Batch 4:  Loss:     0.0179 	Validation Accuracy: 0.735600
+Epoch 12, CIFAR-10 Batch 5:  Loss:     0.0156 	Validation Accuracy: 0.708400
+Epoch 13, CIFAR-10 Batch 1:  Loss:     0.0385 	Validation Accuracy: 0.731000
+Epoch 13, CIFAR-10 Batch 2:  Loss:     0.0201 	Validation Accuracy: 0.731200
+Epoch 13, CIFAR-10 Batch 3:  Loss:     0.0073 	Validation Accuracy: 0.724600
+Epoch 13, CIFAR-10 Batch 4:  Loss:     0.0180 	Validation Accuracy: 0.711600
+Epoch 13, CIFAR-10 Batch 5:  Loss:     0.0101 	Validation Accuracy: 0.711600
+Epoch 14, CIFAR-10 Batch 1:  Loss:     0.0280 	Validation Accuracy: 0.717200
+Epoch 14, CIFAR-10 Batch 2:  Loss:     0.0134 	Validation Accuracy: 0.713800
+Epoch 14, CIFAR-10 Batch 3:  Loss:     0.0128 	Validation Accuracy: 0.710400
+Epoch 14, CIFAR-10 Batch 4:  Loss:     0.0054 	Validation Accuracy: 0.724800
+Epoch 14, CIFAR-10 Batch 5:  Loss:     0.0045 	Validation Accuracy: 0.717600
+Epoch 15, CIFAR-10 Batch 1:  Loss:     0.0336 	Validation Accuracy: 0.707600
+Epoch 15, CIFAR-10 Batch 2:  Loss:     0.0091 	Validation Accuracy: 0.724600
+Epoch 15, CIFAR-10 Batch 3:  Loss:     0.0066 	Validation Accuracy: 0.702800
+Epoch 15, CIFAR-10 Batch 4:  Loss:     0.0058 	Validation Accuracy: 0.715000
+Epoch 15, CIFAR-10 Batch 5:  Loss:     0.0078 	Validation Accuracy: 0.718400
+Epoch 16, CIFAR-10 Batch 1:  Loss:     0.0240 	Validation Accuracy: 0.708400
+Epoch 16, CIFAR-10 Batch 2:  Loss:     0.0096 	Validation Accuracy: 0.700000
+Epoch 16, CIFAR-10 Batch 3:  Loss:     0.0086 	Validation Accuracy: 0.718600
+Epoch 16, CIFAR-10 Batch 4:  Loss:     0.0053 	Validation Accuracy: 0.726400
+Epoch 16, CIFAR-10 Batch 5:  Loss:     0.0113 	Validation Accuracy: 0.731000
+Epoch 17, CIFAR-10 Batch 1:  Loss:     0.0306 	Validation Accuracy: 0.707200
+Epoch 17, CIFAR-10 Batch 2:  Loss:     0.0075 	Validation Accuracy: 0.704400
+Epoch 17, CIFAR-10 Batch 3:  Loss:     0.0194 	Validation Accuracy: 0.711200
+Epoch 17, CIFAR-10 Batch 4:  Loss:     0.0052 	Validation Accuracy: 0.732400
+Epoch 17, CIFAR-10 Batch 5:  Loss:     0.0019 	Validation Accuracy: 0.737000
+Epoch 18, CIFAR-10 Batch 1:  Loss:     0.0280 	Validation Accuracy: 0.698600
+Epoch 18, CIFAR-10 Batch 2:  Loss:     0.0028 	Validation Accuracy: 0.722600
+Epoch 18, CIFAR-10 Batch 3:  Loss:     0.0060 	Validation Accuracy: 0.708600
+Epoch 18, CIFAR-10 Batch 4:  Loss:     0.0022 	Validation Accuracy: 0.729000
+Epoch 18, CIFAR-10 Batch 5:  Loss:     0.0021 	Validation Accuracy: 0.732600
+Epoch 19, CIFAR-10 Batch 1:  Loss:     0.0025 	Validation Accuracy: 0.713800
+Epoch 19, CIFAR-10 Batch 2:  Loss:     0.0025 	Validation Accuracy: 0.723600
+Epoch 19, CIFAR-10 Batch 3:  Loss:     0.0073 	Validation Accuracy: 0.709000
+Epoch 19, CIFAR-10 Batch 4:  Loss:     0.0037 	Validation Accuracy: 0.716600
+Epoch 19, CIFAR-10 Batch 5:  Loss:     0.0055 	Validation Accuracy: 0.719600
+Epoch 20, CIFAR-10 Batch 1:  Loss:     0.0047 	Validation Accuracy: 0.731400
+Epoch 20, CIFAR-10 Batch 2:  Loss:     0.0030 	Validation Accuracy: 0.717600
+Epoch 20, CIFAR-10 Batch 3:  Loss:     0.0013 	Validation Accuracy: 0.723400
+Epoch 20, CIFAR-10 Batch 4:  Loss:     0.0033 	Validation Accuracy: 0.715200
+Epoch 20, CIFAR-10 Batch 5:  Loss:     0.0022 	Validation Accuracy: 0.710800
+Epoch 21, CIFAR-10 Batch 1:  Loss:     0.0031 	Validation Accuracy: 0.730800
+Epoch 21, CIFAR-10 Batch 2:  Loss:     0.0055 	Validation Accuracy: 0.712000
+Epoch 21, CIFAR-10 Batch 3:  Loss:     0.0001 	Validation Accuracy: 0.733600
+Epoch 21, CIFAR-10 Batch 4:  Loss:     0.0066 	Validation Accuracy: 0.707800
+Epoch 21, CIFAR-10 Batch 5:  Loss:     0.0040 	Validation Accuracy: 0.719000
+Epoch 22, CIFAR-10 Batch 1:  Loss:     0.0029 	Validation Accuracy: 0.727800
+Epoch 22, CIFAR-10 Batch 2:  Loss:     0.0005 	Validation Accuracy: 0.716600
+Epoch 22, CIFAR-10 Batch 3:  Loss:     0.0002 	Validation Accuracy: 0.733600
+Epoch 22, CIFAR-10 Batch 4:  Loss:     0.0004 	Validation Accuracy: 0.735200
+Epoch 22, CIFAR-10 Batch 5:  Loss:     0.0009 	Validation Accuracy: 0.726400
+Epoch 23, CIFAR-10 Batch 1:  Loss:     0.0022 	Validation Accuracy: 0.731600
+Epoch 23, CIFAR-10 Batch 2:  Loss:     0.0007 	Validation Accuracy: 0.710600
+Epoch 23, CIFAR-10 Batch 3:  Loss:     0.0003 	Validation Accuracy: 0.725800
+Epoch 23, CIFAR-10 Batch 4:  Loss:     0.0033 	Validation Accuracy: 0.723400
+Epoch 23, CIFAR-10 Batch 5:  Loss:     0.0052 	Validation Accuracy: 0.721200
+Epoch 24, CIFAR-10 Batch 1:  Loss:     0.0016 	Validation Accuracy: 0.729800
+Epoch 24, CIFAR-10 Batch 2:  Loss:     0.0030 	Validation Accuracy: 0.717200
+Epoch 24, CIFAR-10 Batch 3:  Loss:     0.0006 	Validation Accuracy: 0.735400
+Epoch 24, CIFAR-10 Batch 4:  Loss:     0.0038 	Validation Accuracy: 0.734600
+Epoch 24, CIFAR-10 Batch 5:  Loss:     0.0021 	Validation Accuracy: 0.729600
+Epoch 25, CIFAR-10 Batch 1:  Loss:     0.0008 	Validation Accuracy: 0.720200
+Epoch 25, CIFAR-10 Batch 2:  Loss:     0.0016 	Validation Accuracy: 0.712800
+Epoch 25, CIFAR-10 Batch 3:  Loss:     0.0018 	Validation Accuracy: 0.717600
+Epoch 25, CIFAR-10 Batch 4:  Loss:     0.0040 	Validation Accuracy: 0.718800
+Epoch 25, CIFAR-10 Batch 5:  Loss:     0.0001 	Validation Accuracy: 0.729600
+Epoch 26, CIFAR-10 Batch 1:  Loss:     0.0017 	Validation Accuracy: 0.715000
+Epoch 26, CIFAR-10 Batch 2:  Loss:     0.0053 	Validation Accuracy: 0.709800
+Epoch 26, CIFAR-10 Batch 3:  Loss:     0.0007 	Validation Accuracy: 0.726000
+Epoch 26, CIFAR-10 Batch 4:  Loss:     0.0007 	Validation Accuracy: 0.712200
+Epoch 26, CIFAR-10 Batch 5:  Loss:     0.0004 	Validation Accuracy: 0.723200
+Epoch 27, CIFAR-10 Batch 1:  Loss:     0.0007 	Validation Accuracy: 0.732000
+Epoch 27, CIFAR-10 Batch 2:  Loss:     0.0036 	Validation Accuracy: 0.714800
+Epoch 27, CIFAR-10 Batch 3:  Loss:     0.0004 	Validation Accuracy: 0.730000
+Epoch 27, CIFAR-10 Batch 4:  Loss:     0.0051 	Validation Accuracy: 0.720600
+Epoch 27, CIFAR-10 Batch 5:  Loss:     0.0003 	Validation Accuracy: 0.719800
+Epoch 28, CIFAR-10 Batch 1:  Loss:     0.0022 	Validation Accuracy: 0.712400
+Epoch 28, CIFAR-10 Batch 2:  Loss:     0.0024 	Validation Accuracy: 0.728000
+Epoch 28, CIFAR-10 Batch 3:  Loss:     0.0008 	Validation Accuracy: 0.734200
+Epoch 28, CIFAR-10 Batch 4:  Loss:     0.0012 	Validation Accuracy: 0.732000
+Epoch 28, CIFAR-10 Batch 5:  Loss:     0.0016 	Validation Accuracy: 0.728800
+Epoch 29, CIFAR-10 Batch 1:  Loss:     0.0037 	Validation Accuracy: 0.714600
+Epoch 29, CIFAR-10 Batch 2:  Loss:     0.0001 	Validation Accuracy: 0.723800
+Epoch 29, CIFAR-10 Batch 3:  Loss:     0.0001 	Validation Accuracy: 0.737600
+Epoch 29, CIFAR-10 Batch 4:  Loss:     0.0041 	Validation Accuracy: 0.728200
+Epoch 29, CIFAR-10 Batch 5:  Loss:     0.0005 	Validation Accuracy: 0.717600
+Epoch 30, CIFAR-10 Batch 1:  Loss:     0.0005 	Validation Accuracy: 0.735800
+Epoch 30, CIFAR-10 Batch 2:  Loss:     0.0049 	Validation Accuracy: 0.729200
+Epoch 30, CIFAR-10 Batch 3:  Loss:     0.0011 	Validation Accuracy: 0.735200
+Epoch 30, CIFAR-10 Batch 4:  Loss:     0.0009 	Validation Accuracy: 0.719600
+Epoch 30, CIFAR-10 Batch 5:  Loss:     0.0007 	Validation Accuracy: 0.721800
+Epoch 31, CIFAR-10 Batch 1:  Loss:     0.0005 	Validation Accuracy: 0.737600
+Epoch 31, CIFAR-10 Batch 2:  Loss:     0.0001 	Validation Accuracy: 0.732200
+Epoch 31, CIFAR-10 Batch 3:  Loss:     0.0001 	Validation Accuracy: 0.738600
+Epoch 31, CIFAR-10 Batch 4:  Loss:     0.0004 	Validation Accuracy: 0.720400
+Epoch 31, CIFAR-10 Batch 5:  Loss:     0.0002 	Validation Accuracy: 0.732600
+Epoch 32, CIFAR-10 Batch 1:  Loss:     0.0010 	Validation Accuracy: 0.741400
+Epoch 32, CIFAR-10 Batch 2:  Loss:     0.0005 	Validation Accuracy: 0.731600
+Epoch 32, CIFAR-10 Batch 3:  Loss:     0.0002 	Validation Accuracy: 0.739800
+Epoch 32, CIFAR-10 Batch 4:  Loss:     0.0002 	Validation Accuracy: 0.726200
+Epoch 32, CIFAR-10 Batch 5:  Loss:     0.0020 	Validation Accuracy: 0.736800
+Epoch 33, CIFAR-10 Batch 1:  Loss:     0.0008 	Validation Accuracy: 0.744400
+Epoch 33, CIFAR-10 Batch 2:  Loss:     0.0008 	Validation Accuracy: 0.718000
+Epoch 33, CIFAR-10 Batch 3:  Loss:     0.0005 	Validation Accuracy: 0.728600
+Epoch 33, CIFAR-10 Batch 4:  Loss:     0.0007 	Validation Accuracy: 0.723000
+Epoch 33, CIFAR-10 Batch 5:  Loss:     0.0014 	Validation Accuracy: 0.734400
+Epoch 34, CIFAR-10 Batch 1:  Loss:     0.0002 	Validation Accuracy: 0.746200
+Epoch 34, CIFAR-10 Batch 2:  Loss:     0.0001 	Validation Accuracy: 0.725800
+Epoch 34, CIFAR-10 Batch 3:  Loss:     0.0006 	Validation Accuracy: 0.737400
+Epoch 34, CIFAR-10 Batch 4:  Loss:     0.0008 	Validation Accuracy: 0.725600
+Epoch 34, CIFAR-10 Batch 5:  Loss:     0.0003 	Validation Accuracy: 0.726000
+Epoch 35, CIFAR-10 Batch 1:  Loss:     0.0002 	Validation Accuracy: 0.734400
+Epoch 35, CIFAR-10 Batch 2:  Loss:     0.0004 	Validation Accuracy: 0.727400
+Epoch 35, CIFAR-10 Batch 3:  Loss:     0.0002 	Validation Accuracy: 0.736400
+Epoch 35, CIFAR-10 Batch 4:  Loss:     0.0034 	Validation Accuracy: 0.709400
+Epoch 35, CIFAR-10 Batch 5:  Loss:     0.0022 	Validation Accuracy: 0.722400
+Epoch 36, CIFAR-10 Batch 1:  Loss:     0.0003 	Validation Accuracy: 0.730200
+Epoch 36, CIFAR-10 Batch 2:  Loss:     0.0011 	Validation Accuracy: 0.731600
+Epoch 36, CIFAR-10 Batch 3:  Loss:     0.0014 	Validation Accuracy: 0.727000
+Epoch 36, CIFAR-10 Batch 4:  Loss:     0.0011 	Validation Accuracy: 0.725800
+Epoch 36, CIFAR-10 Batch 5:  Loss:     0.0008 	Validation Accuracy: 0.726400
+Epoch 37, CIFAR-10 Batch 1:  Loss:     0.0007 	Validation Accuracy: 0.734000
+Epoch 37, CIFAR-10 Batch 2:  Loss:     0.0033 	Validation Accuracy: 0.720200
+Epoch 37, CIFAR-10 Batch 3:  Loss:     0.0003 	Validation Accuracy: 0.734600
+Epoch 37, CIFAR-10 Batch 4:  Loss:     0.0013 	Validation Accuracy: 0.728600
+Epoch 37, CIFAR-10 Batch 5:  Loss:     0.0004 	Validation Accuracy: 0.725800
+Epoch 38, CIFAR-10 Batch 1:  Loss:     0.0009 	Validation Accuracy: 0.739600
+Epoch 38, CIFAR-10 Batch 2:  Loss:     0.0004 	Validation Accuracy: 0.730800
+Epoch 38, CIFAR-10 Batch 3:  Loss:     0.0001 	Validation Accuracy: 0.739600
+Epoch 38, CIFAR-10 Batch 4:  Loss:     0.0006 	Validation Accuracy: 0.728600
+Epoch 38, CIFAR-10 Batch 5:  Loss:     0.0028 	Validation Accuracy: 0.721600
+Epoch 39, CIFAR-10 Batch 1:  Loss:     0.0020 	Validation Accuracy: 0.738000
+Epoch 39, CIFAR-10 Batch 2:  Loss:     0.0002 	Validation Accuracy: 0.717400
+Epoch 39, CIFAR-10 Batch 3:  Loss:     0.0001 	Validation Accuracy: 0.740200
+Epoch 39, CIFAR-10 Batch 4:  Loss:     0.0004 	Validation Accuracy: 0.716800
+Epoch 39, CIFAR-10 Batch 5:  Loss:     0.0004 	Validation Accuracy: 0.719600
+Epoch 40, CIFAR-10 Batch 1:  Loss:     0.0023 	Validation Accuracy: 0.726000
+Epoch 40, CIFAR-10 Batch 2:  Loss:     0.0006 	Validation Accuracy: 0.731600
+Epoch 40, CIFAR-10 Batch 3:  Loss:     0.0003 	Validation Accuracy: 0.743000
+Epoch 40, CIFAR-10 Batch 4:  Loss:     0.0011 	Validation Accuracy: 0.722000
+Epoch 40, CIFAR-10 Batch 5:  Loss:     0.0008 	Validation Accuracy: 0.712000
+Epoch 41, CIFAR-10 Batch 1:  Loss:     0.0000 	Validation Accuracy: 0.740400
+Epoch 41, CIFAR-10 Batch 2:  Loss:     0.0007 	Validation Accuracy: 0.712800
+Epoch 41, CIFAR-10 Batch 3:  Loss:     0.0003 	Validation Accuracy: 0.731800
+Epoch 41, CIFAR-10 Batch 4:  Loss:     0.0002 	Validation Accuracy: 0.732400
+Epoch 41, CIFAR-10 Batch 5:  Loss:     0.0006 	Validation Accuracy: 0.724000
+Epoch 42, CIFAR-10 Batch 1:  Loss:     0.0005 	Validation Accuracy: 0.736400
+Epoch 42, CIFAR-10 Batch 2:  Loss:     0.0001 	Validation Accuracy: 0.735800
+Epoch 42, CIFAR-10 Batch 3:  Loss:     0.0006 	Validation Accuracy: 0.730400
+Epoch 42, CIFAR-10 Batch 4:  Loss:     0.0002 	Validation Accuracy: 0.719800
+Epoch 42, CIFAR-10 Batch 5:  Loss:     0.0010 	Validation Accuracy: 0.712800
+Epoch 43, CIFAR-10 Batch 1:  Loss:     0.0002 	Validation Accuracy: 0.740800
+Epoch 43, CIFAR-10 Batch 2:  Loss:     0.0002 	Validation Accuracy: 0.721800
+Epoch 43, CIFAR-10 Batch 3:  Loss:     0.0003 	Validation Accuracy: 0.736000
+Epoch 43, CIFAR-10 Batch 4:  Loss:     0.0003 	Validation Accuracy: 0.734800
+Epoch 43, CIFAR-10 Batch 5:  Loss:     0.0001 	Validation Accuracy: 0.736200
+Epoch 44, CIFAR-10 Batch 1:  Loss:     0.0069 	Validation Accuracy: 0.731000
+Epoch 44, CIFAR-10 Batch 2:  Loss:     0.0001 	Validation Accuracy: 0.731800
+Epoch 44, CIFAR-10 Batch 3:  Loss:     0.0000 	Validation Accuracy: 0.741400
+Epoch 44, CIFAR-10 Batch 4:  Loss:     0.0029 	Validation Accuracy: 0.728400
+Epoch 44, CIFAR-10 Batch 5:  Loss:     0.0005 	Validation Accuracy: 0.719400
+Epoch 45, CIFAR-10 Batch 1:  Loss:     0.0003 	Validation Accuracy: 0.730200
+Epoch 45, CIFAR-10 Batch 2:  Loss:     0.0000 	Validation Accuracy: 0.728600
+Epoch 45, CIFAR-10 Batch 3:  Loss:     0.0000 	Validation Accuracy: 0.730400
+Epoch 45, CIFAR-10 Batch 4:  Loss:     0.0002 	Validation Accuracy: 0.740200
+Epoch 45, CIFAR-10 Batch 5:  Loss:     0.0003 	Validation Accuracy: 0.725800
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div>
@@ -12901,7 +13110,7 @@ During handling of the above exception, another exception occurred:
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[117]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="sd">&quot;&quot;&quot;</span>
@@ -12970,6 +13179,789 @@ During handling of the above exception, another exception occurred:
 </pre></div>
 
 </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>INFO:tensorflow:Restoring parameters from ./image_classification
+Testing Accuracy: 0.7166015625
+
+</pre>
+</div>
+</div>
+
+<div class="output_area">
+
+<div class="prompt"></div>
+
+
+
+
+<div class="output_png output_subarea ">
+<img src="data:image/png;base64,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
+"
+width=355
+height=319
+>
+</div>
+
+</div>
+
 </div>
 </div>
 
